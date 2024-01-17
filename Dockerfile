@@ -12,7 +12,7 @@ COPY . ./
 
 # Install production dependencies.
 RUN pip install -r requirements.txt
-EXPOSE 8086
+EXPOSE 8088
 
 # Run the web service on container startup. Here we use the gunicorn
 # webserver, with one worker process and 8 threads.
